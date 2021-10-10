@@ -67,6 +67,7 @@ def grib(x, y, s, colour):
     x, y - coordinates of the left border of the mushroom's leg
     s - coefficient of compression/stretching
     s > 0
+    text text
     colour - colour of the mushroom's hat
     '''
     ellipse(screen, (255, 255, 255), (x, y , 30*s , 50*s))                  #mushroom's leg
